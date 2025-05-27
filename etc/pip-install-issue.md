@@ -20,3 +20,8 @@ or
 ```
 !pip install --upgrade --force-reinstall --no-deps --ignore-installed --no-cache-dir packaging
 ```
+or
+Remove the problematic package and the installation will install the needed dependencies
+```
+!rm -rf /opt/conda/lib/python3.10/site-packages/
+```
