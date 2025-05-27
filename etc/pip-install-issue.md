@@ -16,3 +16,7 @@ hint: You might be able to recover from this via: pip install --force-reinstall 
 ```
 !pip install --force-reinstall --no-deps --ignore-installed pyyaml
 ```
+or
+```
+!pip install --upgrade --force-reinstall --no-deps --ignore-installed --no-cache-dir packaging
+```
